@@ -1,5 +1,5 @@
 package player_scripts;
 
-public class stats {
-    
+public class Charisma {
+
 }

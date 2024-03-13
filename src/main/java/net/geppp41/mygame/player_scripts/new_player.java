@@ -1,9 +1,21 @@
 package player_scripts;
-import player_scripts.Hp;
-import player_scripts.Mana;
-import player_scripts.Defense;
+
 public class new_player {
-    Hp hp = new Hp();
-    Mana mana = new Mana();
-    Defense defense = new Defense();
+    public Long hp;
+    public Mana mp;
+    public Defense def;
+    public Armor armor;
+    public Charisma cha;
+    public new_player() {
+        this.hp = 100L;
+        this.mp = new Mana();
+        this.def = new Defense();
+        this.armor = new Armor();
+        this.cha = new Charisma();
+    }
+    //Dexterity dex = new Dexterity();
+    //Endurince con = new Endurince();
+    //Intelligence Intel = new Intelligence();
+    //Strength str = new Strength();
+    //Wisdom wis = new Wisdom();
 }
