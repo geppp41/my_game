@@ -13,11 +13,12 @@ public class Item {
     public float magic_res; // how much magic resitence item gives
     public float quality; // item quality
     public double damage; // how much damage item does
+    public double mana; // how much mana the item gives
 
     /**
     lets item get its stats on creation
      */
-    public Item(String Name, String Type, int Armor, int Strength, int Endurance, int Dexterity, int Intelligence, int Wisdom, int Charisma, int Range, float Magic_res, double Damage, float Quality) {
-        name = Name; type = Type; armor = Armor; strength = Strength; endurance = Endurance; dexterity = Dexterity; intelligence = Intelligence; wisdom = Wisdom; charisma = Charisma; range = Range; magic_res = Magic_res; damage = Damage; quality = Quality; 
+    public Item(String Name, String Type, int Armor, int Strength, int Endurance, int Dexterity, int Intelligence, int Wisdom, int Charisma, int Range, float Magic_res, double Damage, double Mana, float Quality) {
+        name = Name; type = Type; armor = Armor; strength = Strength; endurance = Endurance; dexterity = Dexterity; intelligence = Intelligence; wisdom = Wisdom; charisma = Charisma; range = Range; magic_res = Magic_res; damage = Damage; mana = Mana; quality = Quality; 
     }
 }
